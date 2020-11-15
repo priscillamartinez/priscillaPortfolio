@@ -1,0 +1,43 @@
+/*stylesheet for resume.html*/
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "navigation" "container";
+}
+
+.navigation {
+    grid-area: navigation;
+    background: #432371;
+    background: -webkit-linear-gradient(#d0c7dd63,#80489675);
+    background: linear-gradient(#d0c7dd63,#80489675);
+}
+
+nav {
+    margin: 1.4% auto auto 2%;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin: 1.6%;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+header a:hover {
+    color: #bd0332;
+}
+
+.container{
+    grid-area: container;
+}
