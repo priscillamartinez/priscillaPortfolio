@@ -16,8 +16,8 @@ body {
     /* background-color: #c7a0d1; */
     background: #432371;
     /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(#d0c7dd63,#80489675);
-    background: linear-gradient(#d0c7dd63,#80489675);
+    background: -webkit-linear-gradient(#1c024163,#ad6b3f59);
+    background: linear-gradient(#1c024163,#ad6b3f59);
 }
 
 nav {
@@ -44,12 +44,10 @@ main {
     grid-area: mainContent;
     height: 90.35vh;
     width: 100%;
-    background: black;
     overflow: hidden;
     background: #432371;
-    /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(#faae7b59, #32086ecc), url("backgd_image.jpg");
-    background: linear-gradient(#faae7b59, #32086ecc), url("backgd_image.jpg");
+    background: -webkit-linear-gradient(#ad6b3f59, #32086ecc), url("backgd_image.jpg");
+    background: linear-gradient(#ad6b3f59, #32086ecc), url("backgd_image.jpg");
     background-size: cover;
 }
 
@@ -89,6 +87,8 @@ section h2 {
     to {
         width: 14%;
     }
+    from{background-color: transparent;}
+    to{background-color: #43237186; padding: 1%;}
 }
 
 /* cursor animations */
