@@ -81,12 +81,9 @@ section h2 {
 /* text animation */
 
 @keyframes animated-text {
-    from {
-        width: 0px;
-    }
-    to {
-        width: 14%;
-    }
+    from {width: 0px;}
+    to {width: 14%;}
+    
     from{background-color: transparent;}
     to{background-color: #43237186; padding: 1%;}
 }
