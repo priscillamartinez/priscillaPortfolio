@@ -3,6 +3,7 @@
 html{
     height: 100%;
 }
+
 body {
     height: 100%;
     width: 100%;
@@ -102,6 +103,22 @@ header a:hover{
 
 .links p{
     margin-top: 5%;
+}
+
+.links .fa-linkedin-in{
+    margin-top: 7%;
+}
+
+.links i{
+    font-size: 1.4em;
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover{
+    color: #32086ecc;
 }
 
 .info{

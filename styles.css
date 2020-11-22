@@ -1,7 +1,7 @@
 /*stylesheet for index.html*/
 
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     margin: 0%;
     overflow-x: hidden;
@@ -9,15 +9,19 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 10% 90%;
     grid-template-areas: "navigation" "mainContent";
+    background: #432371;
+    background: -webkit-linear-gradient(#ad6b3f59, #32086ecc), url("backgd_image.jpg");
+    background: linear-gradient(#ad6b3f59, #32086ecc), url("backgd_image.jpg");
+    background-size: cover;
 }
 
 .navigation {
     grid-area: navigation;
     /* background-color: #c7a0d1; */
-    background: #432371;
+    /* background: #432371;
     /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(#1c024163,#ad6b3f59);
-    background: linear-gradient(#1c024163,#ad6b3f59);
+    /* background: -webkit-linear-gradient(#1c024163,#ad6b3f59);
+    background: linear-gradient(#1c024163,#ad6b3f59); */
 }
 
 nav {
@@ -42,13 +46,13 @@ header a:hover {
 
 main {
     grid-area: mainContent;
-    height: 90.35vh;
+    height: 90vh;
     width: 100%;
     overflow: hidden;
-    background: #432371;
+    /* background: #432371;
     background: -webkit-linear-gradient(#ad6b3f59, #32086ecc), url("backgd_image.jpg");
-    background: linear-gradient(#ad6b3f59, #32086ecc), url("backgd_image.jpg");
-    background-size: cover;
+    background: linear-gradient(#ad6b3f59, #32086ecc), url("backgd_image.jpg"); */
+    
 }
 
 section {
@@ -83,7 +87,7 @@ section h2 {
 @keyframes animated-text {
     from {width: 0px;}
     to {width: 14%;}
-    
+
     from{background-color: transparent;}
     to{background-color: #43237186; padding: 1%;}
 }
