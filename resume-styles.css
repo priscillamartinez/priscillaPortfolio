@@ -16,6 +16,48 @@ body {
                         ". container container ."
 }
 
+@media only screen and (max-width: 600px) {
+    .navigation a{
+        font-size: 0.85em;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+        grid-template-rows: 0.5fr 1.5fr;
+        grid-template-areas: "navigation navigation navigation navigation" 
+                            "container container container container"
+
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "image intro"
+                                "links info";
+    }
+
+    .intro{
+        font-size: 0.65em;
+    }
+    .info{
+        font-size: 0.65em;
+    }
+    .links{
+        font-size: 0.5em;
+    }
+    .info{
+        font-size: 0.65em;
+    }
+    .image{
+        font-size: 0.75em;
+        width: 15em;
+    }
+}
+
 .navigation {
     grid-area: navigation;
     margin-bottom: 0;

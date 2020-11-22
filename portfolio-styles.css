@@ -5,6 +5,10 @@
         width: 100vw;
         height: 100vh;
     }
+
+    .navigation a{
+        font-size: 0.75em;
+    }
     
     .gallery img {
         width: 50vw;
