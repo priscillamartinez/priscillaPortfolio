@@ -1,8 +1,12 @@
 /*stylesheet for portfolio page*/
 
 @media only screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
     .gallery img {
-        height: 40vh;
         width: 50vw;
         border: 2px solid black;
         opacity: 0.8;

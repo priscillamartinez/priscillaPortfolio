@@ -1,4 +1,13 @@
 /*stylesheet for index.html*/
+@media only screen and (max-width: 600px) {
+    header a{
+        font-size: 0.9em;
+    }
+
+    .mainContent h1{
+        margin-top: 8%;
+    }
+}
 
 body {
     height: 100vh;
@@ -17,11 +26,6 @@ body {
 
 .navigation {
     grid-area: navigation;
-    /* background-color: #c7a0d1; */
-    /* background: #432371;
-    /* fallback colour. Make sure this is just one solid colour. */
-    /* background: -webkit-linear-gradient(#1c024163,#ad6b3f59);
-    background: linear-gradient(#1c024163,#ad6b3f59); */
 }
 
 nav {
